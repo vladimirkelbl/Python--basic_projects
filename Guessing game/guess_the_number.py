@@ -10,7 +10,7 @@ down_border = int(input("Down border: "))
 high_border = int(input("High border: "))
 
 number_for_guessing = random.randrange(down_border, high_border, 1)
-print("\nFriendly help: " + str(number_for_guessing))
+
 number_of_tryies = 1
 minimum_number_of_tryies = int(math.log2(high_border - down_border + 1))        #mathematics: bisection method
 if high_border-down_border+1 > 21:
